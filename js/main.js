@@ -1,6 +1,6 @@
-$(function(){
+$(function () {
 
-    $('.popup__link').magnificPopup({
+	$('.popup__link').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
 		mainClass: 'mfp-fade',
@@ -9,9 +9,9 @@ $(function(){
 		fixedContentPos: false
 	});
 
-    $('.gallery__slider').slick({
-		prevArrow: '<button type="button" class="slick-btn slick-prev"><img  src="../images/arrow-left.svg" alt=""></button>',
-        nextArrow: '<button type="button" class="slick-btn slick-next"><img  src="../images/arrow-right.svg" alt=""></button>', 
-		arrows: true ,
-    });
+	$('.gallery__slider').slick({
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-btn slick-prev"><img src="/images/arrow-left.svg" alt=""></button>',
+		nextArrow: '<button type="button" class="slick-btn slick-next"><img src="/images/arrow-right.svg" alt=""></button>',
+	});
 });
